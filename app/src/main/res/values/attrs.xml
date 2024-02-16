@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="baseline_back24" format="reference" />
+    <attr name="beseline_back_w" format="reference"/>
+    <attr name="settings_black" format="reference"/>
+    <attr name="settings_white" format="reference"/>
+    <attr name="pop" format="reference"/>
+    <attr name="pop_white" format="reference"/>
+
+
+</resources>

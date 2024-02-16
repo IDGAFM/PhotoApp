@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.swiperefreshlayout.widget.SwipeRefreshLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:id="@+id/SwipeRefreshLayout"
+    android:layout_height="match_parent"
+    android:padding="8dp"
+    tools:context=".ui.profile.ProfileFragment">
+
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/profile_image"
+            android:layout_width="140dp"
+            android:layout_height="154dp"
+            app:layout_constraintDimensionRatio="1:1"
+            app:layout_constraintHorizontal_weight="2"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+
+        </de.hdodenhof.circleimageview.CircleImageView>
+
+        <TextView
+            android:id="@+id/posts_count_text"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:gravity="center"
+            style="@style/profile_text_count"
+            app:layout_constraintBottom_toTopOf="@id/edit_profile_btn"
+            app:layout_constraintEnd_toEndOf="@id/posts_text"
+            app:layout_constraintStart_toStartOf="@id/posts_text"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.3"
+            tools:text="0" />
+
+        <TextView
+            android:id="@+id/posts_text"
+            style="@style/profile_text"
+            android:layout_width="70dp"
+            android:layout_height="25dp"
+            android:gravity="center"
+            android:text="@string/posts"
+            app:layout_constraintEnd_toStartOf="@id/followers_text"
+            app:layout_constraintStart_toStartOf="@id/edit_profile_btn"
+            app:layout_constraintTop_toBottomOf="@id/posts_count_text" />
+
+        <TextView
+            android:id="@+id/followers_count_text"
+            style="@style/profile_text_count"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:text="@{viewModel.followers}"
+            app:layout_constraintBaseline_toBaselineOf="@id/posts_count_text"
+            app:layout_constraintEnd_toEndOf="@id/followers_text"
+            app:layout_constraintHorizontal_bias="0.575"
+            app:layout_constraintStart_toStartOf="@id/followers_text" />
+
+        <TextView
+            android:id="@+id/followers_text"
+            style="@style/profile_text"
+            android:layout_width="70dp"
+            android:layout_height="25dp"
+            android:text="@string/followers"
+            android:layout_marginStart="8dp"
+            app:layout_constraintBaseline_toBaselineOf="@id/posts_text"
+            app:layout_constraintEnd_toStartOf="@id/following_text"
+            app:layout_constraintStart_toEndOf="@id/posts_text" />
+
+        <TextView
+            android:id="@+id/following_count_text"
+            style="@style/profile_text_count"
+            android:layout_width="29dp"
+            android:layout_height="35dp"
+            android:text="@{viewModel.following}"
+            app:layout_constraintBaseline_toBaselineOf="@id/posts_count_text"
+            app:layout_constraintEnd_toEndOf="@id/following_text"
+            app:layout_constraintHorizontal_bias="0.525"
+            app:layout_constraintStart_toStartOf="@id/following_text" />
+
+        <TextView
+            android:id="@+id/following_text"
+            style="@style/profile_text"
+            android:layout_width="70dp"
+            android:layout_height="25dp"
+            android:layout_marginStart="12dp"
+            android:text="@string/following"
+            app:layout_constraintBaseline_toBaselineOf="@id/posts_text"
+            app:layout_constraintEnd_toEndOf="@id/edit_profile_btn"
+            app:layout_constraintStart_toEndOf="@id/followers_text" />
+
+        <Button
+            android:id="@+id/edit_profile_btn"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="15dp"
+            android:layout_marginBottom="24dp"
+            android:background="@drawable/button_bg"
+            android:minHeight="0dp"
+            android:paddingTop="4dp"
+            android:paddingBottom="4dp"
+            android:text="@string/follow"
+            android:textAllCaps="false"
+            android:textSize="14sp"
+            app:layout_constraintBottom_toBottomOf="@id/profile_image"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.607"
+            app:layout_constraintHorizontal_weight="5"
+            app:layout_constraintStart_toEndOf="@id/profile_image" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/images_recycler"
+            android:layout_width="match_parent"
+            android:layout_height="550dp"
+            android:layout_marginTop="24dp"
+            android:background="@drawable/grey_btn_bg"
+            app:layoutManager="androidx.recyclerview.widget.GridLayoutManager"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/edit_profile_btn"
+            app:layout_goneMarginTop="15dp"
+            app:spanCount="3"/>
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.swiperefreshlayout.widget.SwipeRefreshLayout>

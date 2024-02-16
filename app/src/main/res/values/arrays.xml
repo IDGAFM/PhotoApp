@@ -1,0 +1,21 @@
+<resources>
+    <string-array name="dark_mode_entries">
+        <item>@string/Light_Mode</item>
+        <item>@string/Dark_Mode</item>
+    </string-array>
+
+    <string-array name="dark_mode_entries_values">
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+
+    <string-array name="language_mode_entries">
+        <item>@string/Eng</item>
+        <item>@string/Rus</item>
+    </string-array>
+
+        <string-array name="language_mode_entries_values">
+            <item>@string/language_code_english</item>
+            <item>@string/language_code_russian</item>
+        </string-array>
+</resources>

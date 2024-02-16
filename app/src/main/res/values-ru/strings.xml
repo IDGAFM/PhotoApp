@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">SnapSwap</string>
+    <string name="language_code_english">en</string>
+    <string name="language_code_russian">ru</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_home">SnapSwap</string>
+    <string name="title_dashboard">Поиск</string>
+    <string name="title_notifications">Добавить пост</string>
+
+
+
+    <string name="comm">Комментарий</string>
+    <string name="deleted">Комментарий удален</string>
+    <string name="error">Ошибка</string>
+    <string name="delete">Удалить</string>
+
+
+    <string name="edit_comment">Редактировать комментарий</string>
+    <string name="save">Сохранить</string>
+    <string name="sucсessfull">Комментарий обноавлен</string>
+    <string name="error_edit">Ошибка обновления комментария</string>
+    <string name="can_not_be_empty">комментарий не может быть пустым</string>
+    <string name="discrad">Отмена</string>
+    <string name="edit">Редактировать</string>
+
+    <string name="Write_comment">Написать комментарий</string>
+    <string name="post_com">Отправить</string>
+
+    <string name="image_uploaded">"Фотография обновлена"</string>
+    <string name="publishing">Публикация</string>
+
+
+    <string name="profile">Профиль</string>
+    <string name="search">Поиск</string>
+    <string name="add">Добавить</string>
+    <string name="exit">Выйти</string>
+    <string name="choesePhotoToPost">Выбрите фотографию</string>
+    <string name="editdescriptions">Редактировать</string>
+    <string name="email_verification_notification_title">Поддвердите email</string>
+    <string name="email_verification_notification_message">Зайдите в почту и подтвердите email</string>
+    <string name="channel_name">channel_name</string>
+    <string name="channel_description">channel_description</string>
+
+    <string name="edit_profile_card">Редактировать</string>
+    <string name="done">Готово</string>
+    <string name="consel">Отмена</string>
+
+    <string name="take_Photo">Сделать фото</string>
+    <string name="choosefromgal">Выбрать из галереи</string>
+    <string name="profile_pick">Выберите фотографию</string>
+
+    <string name="post_count_txt">Пост%ы</string>
+    <string name="settings">Настройки</string>
+    <string name="edit_profile">Редактировать</string>
+    <string name="following">Подписки</string>
+    <string name="followers">Подписчики</string>
+    <string name="posts">Публикаций</string>
+    <string name="follow">Подписаться</string>
+    <string name="unfollow">Отписаться</string>
+    <string name="email">Email</string>
+    <string name="password">Пароль</string>
+    <string name="sign_in">Вход</string>
+    <string name="if_you_don_t_have_an_account_sign_up_there">Если у вас нет аккаунта зарегистрируйтесь здесь</string>
+    <string name="_0_likes">Лайков</string>
+    <string name="user_name">Имя</string>
+    <string name="sign_up">Регистрация</string>
+    <string name="if_you_have_an_account_sign_in_there">Если у вас есть аккаунт войдите здесь</string>
+    <string name="post">Опубликовать</string>
+    <string name="caption">Описание</string>
+    <string name="search_users">Поиск</string>
+    <string name="title_activity_settings">Настройки</string>
+
+
+    <string name="now">только что</string>
+    <string name="min">мин назад</string>
+    <string name="hour">час назад</string>
+
+
+
+    <string name="Dark_Mode">Темная тема</string>
+    <string name="Light_Mode">Светлая тема</string>
+
+
+    <string name="Theme">Тема</string>
+    <string name="Language">Язык</string>
+
+    <string name="Rus">Русский</string>
+    <string name="Eng">Английский</string>
+    <string name="delete_avatar">delete</string>
+    <string name="welcome_message">Добро пожаловать в SnapSwap! Войдите или зарегистрируйтесь, чтобы начать обмениваться снимками и создавать воспоминания</string>
+    <string name="discover_the_world_of_snapswap">Откройте для себя мир SnapSwap</string>
+    <string name="enter_your_email">Введите свой адрес электронной почты</string>
+    <string name="forgot_password">Забыли пароль?</string>
+    <string name="people_you_may_know">Люди, которых вы, возможно, знаете</string>
+    <string name="valid_email">Введите действительный адрес электронной почты</string>
+    <string name="reset">Электронное письмо для сброса пароля, отправленное на</string>
+    <string name="failres">Не удалось отправить электронное письмо для сброса пароля</string>
+    <string name="entere">Введите адрес электронной почты</string>
+    <string name="enterp">Введите пароль</string>
+    <string name="sss">"Выполняется вход"</string>
+    <string name="Incorrect">неверные данные пользователя</string>
+    <string name="af">"Не удалось выполнить аутентификацию</string>
+    <string name="resetor">Восстановить аккаунт</string>
+    <string name="delacc">Аккаунт удален</string>
+    <string name="alredytaken">Данное имя пользоваетля занятно</string>
+    <string name="checkem">Посмотрите свой email</string>
+
+
+
+</resources>

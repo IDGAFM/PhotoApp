@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="delete_avatar">delete</string>
+    <string name="welcome_message">\Welcome to SnapSwap! Sign in or sign up to start swapping snaps and creating memories</string>
+    <string name="discover_the_world_of_snapswap">Discover the World of SnapSwap</string>
+    <string name="enter_your_email">Enter your email</string>
+    <string name="forgot_password">forgot password?</string>
+    <string name="people_you_may_know">People you may know</string>
+</resources>
